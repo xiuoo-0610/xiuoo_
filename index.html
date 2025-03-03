@@ -3,65 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>xiuoo_</title>
-  <!-- <link rel="icon" herf=""> -->
+  <title>XIUOO | 二ホン日記</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.jpg">
 </head>
 <body>
   <header>
-    <img src="image/アートボード 1.png" alt="圖1" width="1024" height="768">
+    <h1>
+      <a href="index.html">
+        <img src="二ホン日記-Photoroom.png" alt="二ホン日記" width="160" height="90">
+      </a>
+    </h1>
+    <div class="lang-links">
+      <a href="#"><img src="繁中-Photoroom.png" alt="繁體中文" width="42" height="32"></a>
+      <a href="#"><img src="日本語-Photoroom.png" alt="日本語" width="51" height="38"></a>
+    </div>
   </header>
 
-  <main>
-    <section class="Aboutme">
-      <div>
-        <!-- <h1>About me</h1> -->
-        <!-- <p>在日台灣人</p> -->
-      </div>
-      <img src="image/アートボード 2.png" alt="圖2" width="1024" height="768">
+  <main class="main-content">
+    <h1>ABOUT ME</h1>
+    <h2>XIUOO | 二ホン日記</h2>
+    <p>
+      歹丸郎 🍠 🇹🇼<br>2017年畢業後來日打工度假<br>一度返台後在日就職 也經歷過轉職惡夢<br>一路上跌跌撞撞 有哭有笑 有黑暗有彩虹<br>故事未完待續...
+    </p>
+    <section>
+      <img src="HP/ABOUT ME 2.jpg" alt="ABOUT ME 2" style="max-width:100%; height:auto;">
     </section>
-
-    <section class="旅日記">
-      <!-- <h1>旅日記</h1> -->
-      <!-- <img src="アートボード 3.png" alt="圖3"  width="1024" height="768"> -->
-      <div class="四季">
-        <a href="#" class="btn1"></a>
-        <a href="#" class="btn2"></a>
-        <a href="#" class="btn3"></a>
-        <a href="#" class="btn4"></a>
-      </div>
+    <section>
+      <img src="hp/ABOUT ME 1.jpg" alt="ABOUT ME 1" style="max-width:100%; height:auto;">
     </section>
-
-    <section class="二ホン暮らし">
-      <!-- <h1>二ホン暮らし</h1> -->
-      <div class="parent">
-        <div class="div1">
-          <article>
-            <img src="image/打工度假.jpg" alt="圖2" width="320" height="222">
-            <h3>working holiday</h3>
-          </article>
-          <article>
-            <img src="image/在日職場.jpg" alt="圖2" width="320" height="222">
-            <h3>在日職場</h3>
-          </article>
-        </div>
-        <div class="div2">
-          <article>
-            <img src="image/在日轉職.jpg" alt="圖2"width="320" height="222">
-            <h3>在日轉職</h3>
-          </article>
-          <article>
-            <img src="image/小日記.jpg" alt="圖2" width="320" height="222">
-            <h3>小日記</h3>
-          </article>
-        </div>
-      </div>
+    <section>
+      <img src="hp/ABOUT ME 7.jpg" alt="ABOUT ME 5" style="max-width:100%; height:auto;">
     </section>
-
+    <section>
+      <img src="hp/ABOUT ME 6.jpg" alt="ABOUT ME 6" style="max-width:100%; height:auto;">
+      <p>photo by @</p>
+    </section>
   </main>
-</body>
 
-<footer>
-  <small>(c) xiuoo_</small>
-</footer>
+  <main class="main-category">
+    <section>
+      <a href="working holiday.html"><img src="working holiday-Photoroom.png" alt="WH" width="320" height="137"></a>
+    </section>
+    <section>
+      <a href="job.html"><img src="Job-Photoroom.png" alt="JOB" width="85" height="64"></a>
+    </section>
+    <section>
+      <a href="#"><img src="Travel-Photoroom.png" alt="TRAVEL" width="182" height="102"></a>
+    </section>
+    <section>
+      <a href="#"><img src="Diary-Photoroom.png" alt="DIARY" width="150" height="84"></a>
+    </section>
+  </main>
+
+  <a href="#" id="back-to-top" class="back-to-top"><img src="箭頭-Photoroom.png" alt="箭頭" width="24px" height="24px"></a>
+
+  <script>
+    window.addEventListener("scroll", function() {
+        let backToTop = document.getElementById("back-to-top");
+        if (window.scrollY > 300) {  
+            backToTop.classList.add("show");
+        } else {
+            backToTop.classList.remove("show");
+        }
+    });
+</script>
+
+  <footer>
+    <small>(c) xiuoo_</small>
+    <address>
+      <a href="#" target="_blank"><img src="mail-Photoroom.png" alt="MAIL" width="26" height="26"></a>
+      <a href="https://www.instagram.com/xiuoo_/" target="_blank" ><img src="IG-Photoroom.png" alt="IG" width="26" height="26"></a>
+    </address>
+  </footer>
+</body>
 </html>
